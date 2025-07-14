@@ -38,6 +38,9 @@ else
     cmd = { "bash-language-server", "start" },
     filetypes = { "sh" },
     root_dir = function(fname)
+      if type(fname) == "number" then
+        fname = vim.api.nvim_buf_get_name(fname)
+      end
       return require("lspconfig.util").find_git_ancestor(fname) or vim.loop.os_homedir()
     end,
     settings = {
@@ -65,3 +68,6 @@ else
     vim.lsp.enable(vim.g.lsp_on_demands)
   end
 end
+
+-- vim ist in Neovim immer global verfügbar. Falls ein Linter meckert, kann man am Anfang ergänzen:
+---@diagnostic disable: undefined-global

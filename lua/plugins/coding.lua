@@ -398,4 +398,11 @@ return {
       { "<leader>ci", "<cmd>Neogen<cr>", desc = "Neogen: Annotation generator" },
     },
   },
+  {
+    "neovim/nvim-lspconfig",
+    event = "VeryLazy",
+    config = function()
+      require("lspconfig")
+    end,
+  },
 }
