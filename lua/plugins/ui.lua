@@ -154,15 +154,13 @@ return {
     },
     dependencies = {
       "MunifTanjim/nui.nvim",
+      "nvim-treesitter/nvim-treesitter",
     },
   },
   {
     "nvim-treesitter/nvim-treesitter",
-    build = function()
-      vim.cmd("TSUpdate")
-    end,
     event = { "BufReadPost", "BufNewFile" },
-    cmd = { "TSUpdateSync", "TSUpdate", "TSInstall" },
+    cmd = { "TSUpdateSync", "TSUpdate", "TSInstall", "TSInstallInfo" },
     keys = {
       { "<c-space>", desc = "Increment Selection" },
       { "<bs>", desc = "Decrement Selection", mode = "x" },

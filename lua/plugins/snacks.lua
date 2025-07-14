@@ -23,7 +23,7 @@ return {
   {
     "nvim-treesitter/nvim-treesitter",
     optional = true,
-    opts = { ensure_installed = { "css", "latex", "norg", "scss", "typst", "vue", "svelte" } },
+    opts = { ensure_installed = { "css", "html", "javascript", "latex", "norg", "scss", "svelte", "tsx", "typst", "vue" } },
   },
   -- Todo comments
   {
@@ -79,6 +79,7 @@ return {
   },
   {
     "folke/snacks.nvim",
+    dependencies = { "nvim-treesitter/nvim-treesitter" },
     priority = 1000,
     lazy = false,
     opts = {
