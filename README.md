@@ -1,15 +1,8 @@
 # Welcome to My Tiny Neovim 👋
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](https://github.com/jozzox/tiny-jx-nvim#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Twitter: jozzox](https://img.shields.io/twitter/follow/jozzox.svg?style=social)](https://twitter.com/jozzox)
-[![Plugins](https://dotfyle.com/jozzox/tiny-jx-nvim/badges/plugins?style=flat "Plugins")](https://dotfyle.com/jozzox/tiny-jx-nvim)
-[![Leaderkey](https://dotfyle.com/jozzox/tiny-jx-nvim/badges/leaderkey?style=flat "Leaderkey")](https://dotfyle.com/jozzox/tiny-jx-nvim)
-[![Plugin Manager](https://dotfyle.com/jozzox/tiny-jx-nvim/badges/plugin-manager?style=flat "Plugin Manager")](https://dotfyle.com/jozzox/tiny-jx-nvim)
 
-> Slim Neovim config for 0.11+ with minimal plugins.
+> Slim Neovim config for 0.11+ with minimal plugins. Have fun!
 
 [![Slim Neovim config for 0.11](https://i.gyazo.com/6e351d72c2f119f70dbc55d61e9452fd.png)](https://gyazo.com/6e351d72c2f119f70dbc55d61e9452fd)
 
@@ -207,18 +200,7 @@ This configuration works seamlessly with VSCode through the [vscode-neovim](http
 - Git integration and file navigation
 - Task running and debugging support
 
-To use this configuration in VSCode:
-
-1. Install the vscode-neovim extension
-2. Set your Neovim configuration path to point to this config:
-
-   ```json
-   "vscode-neovim.NVIM_APPNAME": "tiny-jx-nvim",
-   ```
-
-3. Restart VSCode
-
-You'll get the same Neovim experience in VSCode, including all the plugins and keybindings.
+You'll get the same vim keys experience in VSCode.
 
 ### Language Support
 
@@ -234,7 +216,7 @@ Each language configuration is modular and can be customized according to your n
 
 ### Theme
 
-This configuration uses [kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim) as the default theme. The theme is inspired by the Kanagawa wave and provides a beautiful, elegant color scheme that's easy on the eyes while maintaining good contrast and readability.
+This configuration uses [kanagawa.nvim](https://github.com/folke/tokyonight.nvim) as the default theme. The theme provides a beautiful, elegant color scheme that's easy on the eyes while maintaining good contrast and readability.
 
 </details>
 
@@ -529,7 +511,13 @@ This configuration uses [kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim
 
 I recommend using the following repo to get a "Nerd Font" (Font that supports icons)
 
-[getnf](https://github.com/ronniedroid/getnf)
+Fedora-Nutzer:innen können Nerd Fonts direkt über die Paketverwaltung installieren:
+
+```bash
+sudo dnf install nerd-fonts
+```
+
+Weitere Informationen und Font-Auswahl findest du im [Nerd Fonts GitHub Repository](https://github.com/ryanoasis/nerd-fonts).
 
 </details>
 
@@ -753,10 +741,6 @@ Also increasing Key Repeat and Delay Until Repeat settings in System Preferences
 > Diese Version von tiny-jx-nvim ist von mir gezielt für Linux und insbesondere für Fedora 42 angepasst worden.
 > Mein Ziel ist es, Anwender:innen auf Fedora und ähnlichen Linux-Distributionen eine praktische und hilfreiche Neovim-Konfiguration bereitzustellen.
 > Ich hoffe, dass diese Konfiguration anderen in einer ähnlichen Situation weiterhilft – und freue mich, wenn ich damit helfen kann!
-
-- [Website](https://anonymous.com/)
-- Twitter: [@jozzox](https://twitter.com/jozzox)
-- Github: [@jozzox](https://github.com/jozzox)
 
 ## Show your support
 
