@@ -176,7 +176,7 @@ return {
           { icon = " ", title = "Keymaps", section = "keys", indent = 2, padding = 1 },
           {
             section = "terminal",
-            title = "Productsway.com",
+            title = "CityzenX was here :)",
             icon = "©",
             --  local user = hostname or vim.env.USER or "User"
             --  local user = vim.fn.expand("$USER")
