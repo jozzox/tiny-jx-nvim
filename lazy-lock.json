@@ -3,11 +3,7 @@
   "LuaSnip": { "branch": "master", "commit": "458560534a73f7f8d7a11a146c801db00b081df0" },
   "better-escape.nvim": { "branch": "master", "commit": "19a38aab94961016430905ebec30d272a01e9742" },
   "blink-copilot": { "branch": "main", "commit": "41e91a659bd9b8cba9ba2ea68a69b52ba5a9ebd8" },
-<<<<<<< HEAD
-  "blink.cmp": { "branch": "main", "commit": "1a5607f90c8804cc13ea94a3ec6ea614141609bf" },
-=======
   "blink.cmp": { "branch": "main", "commit": "1470092eeac5df0f9c296500bcc50720421a02a7" },
->>>>>>> af68b05 (Aktualisiert die Commits  in lazy-lock.json)
   "bufferline.nvim": { "branch": "main", "commit": "655133c3b4c3e5e05ec549b9f8cc2894ac6f51b3" },
   "conform.nvim": { "branch": "master", "commit": "973f3cb73887d510321653044791d7937c7ec0fa" },
   "copilot.vim": { "branch": "release", "commit": "cd7f01009fb7b30e22840cadc4faad88b05c6eef" },
